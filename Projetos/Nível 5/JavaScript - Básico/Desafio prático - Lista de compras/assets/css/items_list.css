@@ -1,0 +1,119 @@
+/* Lista de itens */
+.items-list {
+    padding: 0 var(--spacing-xl) var(--spacing-xl);
+    background: var(--color-bg-white);
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    background: var(--color-bg-light);
+    border: 1px solid var(--border-color-item);
+    border-radius: var(--border-radius-lg);
+    transition: all 0.2s ease;
+    animation: slideIn 0.3s ease;
+}
+
+.item:hover {
+    background: #f1f5f9;
+    border-color: var(--border-color-item-hover);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-item-hover);
+}
+
+.item.completed {
+    opacity: 0.6;
+    background: #f0fdf4;
+    border-color: #bbf7d0;
+}
+
+.item.completed .item-text {
+    text-decoration: line-through;
+    color: var(--color-text-muted);
+}
+
+.item-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d1d5db;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.item-checkbox:hover {
+    border-color: var(--color-primary);
+}
+
+.item-checkbox.checked {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+}
+
+.item-checkbox.checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-text-light);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+}
+
+.item-text {
+    flex: 1;
+    font-size: var(--font-size-base);
+    color: var(--color-text-item);
+    font-weight: var(--font-weight-medium);
+}
+
+.remove-button {
+    padding: var(--spacing-xs);
+    background: var(--color-danger-light);
+    color: var(--color-danger);
+    border: none;
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.remove-button:hover {
+    background: var(--color-danger-lighter);
+    transform: scale(1.05);
+}
+
+.remove-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Responsividade da lista de itens */
+@media (max-width: 768px) {
+    .items-list {
+        padding-left: var(--spacing-lg);
+        padding-right: var(--spacing-lg);
+    }
+    
+    .item {
+        padding: 0.875rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .items-list {
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+    }
+}

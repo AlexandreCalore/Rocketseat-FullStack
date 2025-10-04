@@ -1,0 +1,41 @@
+/* Estado vazio */
+.empty-state {
+    padding: var(--spacing-xxl) var(--spacing-xl);
+    text-align: center;
+    color: var(--color-text-muted);
+    background: var(--color-bg-white);
+}
+
+.empty-state.hidden {
+    display: none;
+}
+
+.empty-icon {
+    margin-bottom: var(--spacing-md);
+    opacity: 0.5;
+}
+
+.empty-icon svg {
+    width: 48px;
+    height: 48px;
+    color: #9ca3af;
+}
+
+.empty-state p {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-text-item);
+}
+
+.empty-state span {
+    font-size: var(--font-size-sm);
+    color: #9ca3af;
+}
+
+/* Responsividade do estado vazio */
+@media (max-width: 480px) {
+    .empty-state {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+}

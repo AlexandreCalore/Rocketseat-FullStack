@@ -1,0 +1,9 @@
+/* index.css - O Maestro */
+@import url("../styles/global.css");
+@import url("../styles/utility.css");
+@import url("../styles/components/header.css");
+@import url("../styles/components/main_content.css");
+@import url("../styles/components/form.css");
+@import url("../styles/components/items_list.css");
+@import url("../styles/components/empty_state.css");
+

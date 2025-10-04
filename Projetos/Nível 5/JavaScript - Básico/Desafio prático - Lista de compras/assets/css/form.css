@@ -1,0 +1,81 @@
+/* Formulário de adicionar item */
+.add-item-form {
+    padding: var(--spacing-xl);
+    background: var(--color-bg-white);
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.input-group {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.input-group input {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.875rem var(--spacing-md);
+    border: 2px solid var(--border-color-input);
+    border-radius: var(--border-radius-md);
+    font-size: var(--font-size-base);
+    transition: all 0.2s ease;
+    background: var(--color-bg-light);
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--border-color-input-focus);
+    background: var(--color-bg-white);
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+}
+
+.input-group input::placeholder {
+    color: var(--color-text-placeholder);
+}
+
+.add-button {
+    padding: 0.875rem var(--spacing-lg);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: var(--color-text-light);
+    border: none;
+    border-radius: var(--border-radius-md);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    box-shadow: var(--shadow-button);
+}
+
+.add-button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-button-hover);
+    background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary-darker) 100%);
+}
+
+.add-button:active {
+    transform: translateY(0);
+}
+
+/* Responsividade do formulário */
+@media (max-width: 768px) {
+    .add-item-form {
+        padding-left: var(--spacing-lg);
+        padding-right: var(--spacing-lg);
+    }
+    
+    .input-group {
+        flex-direction: column;
+    }
+    
+    .input-group input {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .add-item-form {
+        padding-left: var(--spacing-md);
+        padding-right: var(--spacing-md);
+    }
+}
