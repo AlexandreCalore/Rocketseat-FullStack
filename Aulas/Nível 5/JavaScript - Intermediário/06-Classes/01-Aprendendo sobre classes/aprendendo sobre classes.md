@@ -9,3 +9,7 @@ Elas foram introduzidas no ECMAScript 2015 (também conhecido como ES6) para for
 Uma classe é basicamente um modelo para criar objetos. Ela contém um construtor, que é um método especial chamado quando um objeto é instanciado a partir da classe. 
 
 Além do construtor, você pode adicionar métodos a uma classe. Métodos são funções associadas a objetos e descrevem o comportamento desses objetos.
+
+## Herança
+
+Uma classe pode herdar propiedades e métodos de outra classe, permnitindo a reutilização de código.
