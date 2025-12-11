@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const t=document.createElement("h1");t.textContent="Olá Mundo",document.body.appendChild(t)}()})();
