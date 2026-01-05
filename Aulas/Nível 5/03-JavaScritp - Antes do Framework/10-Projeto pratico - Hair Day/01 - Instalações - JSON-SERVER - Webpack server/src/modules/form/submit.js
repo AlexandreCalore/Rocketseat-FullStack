@@ -2,6 +2,7 @@ import dayjs from "dayjs"
 
 const form = document.querySelector("form")
 const selectedDate = document.getElementById("date")
+const clientName = document.getElementById("client")
 
 // Date atual para formatar o input
 const inputToday = dayjs(new Date()).format("YYYY-MM-DD")
@@ -15,4 +16,36 @@ selectedDate.min = dayjs(new Date()).format("YYYY-MM-DD")
 form.onsubmit = (event) => {
     // Previnindo comportamento padrão de carregar página ao enviar o formulário
     event.preventDefault()
+
+    try {
+      //Recuperando o nome do cliente  
+      const name = clientName.value.trim()
+
+      if (!name) {
+        return alert("Por favor, informe o nome do cliente")
+      }
+
+      //Recupera o horário selecionado
+
+      const hourSelected = document.querySelector(".hour-selected")
+
+      //Verifica se o horário foi selecionado
+      if(!hourSelected){
+        return alert("Por favor, selecione um horário")
+      }
+      //Recuperando somente a hora
+      const [hour] = hourSelected.innerText.split(":")
+
+      //Insere a hora na data
+
+      const hwhen = dayjs(selectedDate.value).set("hour", hour).format()
+
+      //Gera um ID
+      const id = new Date().getTime()
+
+      
+    } catch (error) {
+     alert("Erro ao enviar o formulário")   
+     console.log(error)
+    }
 }
