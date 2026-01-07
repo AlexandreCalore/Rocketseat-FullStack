@@ -11,5 +11,7 @@ import "./styles/schedule.css"
 
 // JS
 import "./modules/form/submit.js"
-import "./modules/page-load.js"
+import "./modules/form/hours-load.js"
 import "./modules/form/data-change.js"
+
+import "./modules/page-load.js"
