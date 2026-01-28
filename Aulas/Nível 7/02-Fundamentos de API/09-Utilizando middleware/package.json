@@ -1,0 +1,12 @@
+{
+  "name": "03-criando-um-projeto-node-js",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto Node.js",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Alexandre Calore",
+  "license": "ISC",
+  "type": "module"
+}
