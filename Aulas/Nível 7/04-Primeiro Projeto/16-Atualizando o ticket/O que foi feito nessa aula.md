@@ -1,0 +1,3 @@
+# Conteúdo da aula
+
+Neste trecho, é demonstrado como criar um método de atualização de registros em um banco de dados. O instrutor mostra como recuperar o índice da linha desejada, realizar a atualização dos dados e salvar as modificações no arquivo. É explicado o uso do método findIndex para encontrar o registro desejado e como sobrescrever propriedades existentes. Ao final, é feita uma demonstração prática da atualização de um registro, mostrando a mudança nos dados do banco de dados.

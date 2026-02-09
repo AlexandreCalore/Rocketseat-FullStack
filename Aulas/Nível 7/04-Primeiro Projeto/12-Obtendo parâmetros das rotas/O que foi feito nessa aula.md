@@ -1,0 +1,3 @@
+# Conteúdo da aula
+
+Neste trecho da aula, é abordado como recuperar parâmetros de uma rota no código. O instrutor demonstra como extrair e tratar esses parâmetros, separando-os em chave e valor. É criada uma função extractcarrie.params.js para realizar essa extração. Posteriormente, a função é importada e utilizada no route handler para visualizar os parâmetros separados. Ao final, é verificado se o parâmetro está presente na requisição e, caso positivo, é retornado o valor correspondente.

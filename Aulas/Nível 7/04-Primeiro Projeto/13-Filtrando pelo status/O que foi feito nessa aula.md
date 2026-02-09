@@ -1,0 +1,3 @@
+# Conteúdo da aula
+
+Nesta aula, foi abordado o processo de aplicar filtros em uma requisição no banco de dados. Foi explicado como adicionar filtros, como verificar a existência deles e como aplicá-los na consulta. Foi demonstrado o uso de uma função de filtro para verificar se um valor específico corresponde a um dos elementos de um array. Ao final, foi mostrado como a aplicação do filtro afeta o resultado da consulta, retornando apenas os registros que atendem aos critérios estabelecidos.

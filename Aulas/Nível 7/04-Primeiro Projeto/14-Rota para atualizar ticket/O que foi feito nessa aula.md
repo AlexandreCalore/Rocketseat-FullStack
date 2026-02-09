@@ -1,0 +1,3 @@
+# Conteúdo da aula
+
+Nesta aula, foi mostrado como criar uma requisição para atualizar dados de um ticket usando o Insomnia. Foi explicado como mudar o método para PUT, adicionar o ID do ticket na URL e criar um novo arquivo e rota no código para lidar com a requisição de atualização. Também foi demonstrado como testar a requisição e resolver possíveis problemas de execução. Ao final, a rota de atualização do ticket estava pronta para ser utilizada.

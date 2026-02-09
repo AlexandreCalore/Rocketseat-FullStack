@@ -1,0 +1,3 @@
+# Conteúdo da aula
+
+Nesta aula, foi abordado o processo de recuperação de parâmetros em uma requisição. Foi mostrado como acessar e manipular os parâmetros que são passados na URL, bem como os parâmetros do corpo da requisição. Além disso, foi explicado como retornar uma resposta vazia com um status code específico, como o 204 de "No Content". Também foi mencionado sobre o uso do status code 200 como padrão para requisições bem-sucedidas.
