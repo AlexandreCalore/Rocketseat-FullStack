@@ -1,0 +1,13 @@
+{
+  "name": "01-criando-o-projeto",
+  "version": "1.0.0",
+  "description": "Criando API Rest com TypeScript e Node.js",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
