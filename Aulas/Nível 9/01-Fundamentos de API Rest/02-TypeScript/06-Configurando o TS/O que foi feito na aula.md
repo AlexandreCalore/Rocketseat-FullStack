@@ -1,0 +1,1 @@
+Adicionando arquivo de configuração para que o TS tenha a compatibilidade necessária na hora de compilar o projeto. 
