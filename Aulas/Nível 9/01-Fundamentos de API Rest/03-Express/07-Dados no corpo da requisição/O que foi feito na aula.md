@@ -1,0 +1,1 @@
+Criamos uma nova rota para tratar somente do método HTTP de POST, além de declarar que iremos utilizar o método JSON para trabalhar.

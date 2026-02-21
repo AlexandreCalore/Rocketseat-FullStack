@@ -1,0 +1,1 @@
+Devolvendo o conteúdo em forma de JSON ao invés de texto html. Comparando a simplicidade sem ter que converter o texto em objeto JSON para retornar o mesmo.
