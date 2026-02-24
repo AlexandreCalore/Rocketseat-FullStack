@@ -1,0 +1,1 @@
+Trabalhamos para separar as funcionalidades e ação que cada rota executa em outro arquivo.

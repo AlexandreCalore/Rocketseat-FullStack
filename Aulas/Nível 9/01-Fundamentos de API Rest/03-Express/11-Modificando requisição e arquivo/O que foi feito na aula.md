@@ -1,0 +1,1 @@
+Criamos a pasta types para deixar separado a nossa tipagem. Criamos um arquivo com final .d, estando o mesmo disponível de forma global, para poder enviar junto da requisição o user_id que foi definido nele por exemplo.

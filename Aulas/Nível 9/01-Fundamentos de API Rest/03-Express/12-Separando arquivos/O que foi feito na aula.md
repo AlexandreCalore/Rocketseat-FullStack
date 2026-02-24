@@ -1,0 +1,1 @@
+As rotas do projeto estão dentro do mesmo arquivo. Vamos trabalhar em separa-las. Criando um arquivo para cada tema ou produto. Além de um index para juntar e comportar todas as rotas possíveis dentro de arquivo.

@@ -1,0 +1,1 @@
+Tratando exceções utilizando Express para garantir que os erros não quebrem o código.

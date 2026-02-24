@@ -1,0 +1,1 @@
+Dividindo as exceções, através de uma classe
