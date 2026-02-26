@@ -1,0 +1,1 @@
+Instalamos o ZOD para verificarmos conteúdos no geral de acordo com os parametros definidos por mim.

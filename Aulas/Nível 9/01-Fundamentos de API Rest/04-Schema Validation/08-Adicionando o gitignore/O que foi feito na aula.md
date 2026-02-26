@@ -1,0 +1,1 @@
+Adicionamos o arquivo .gitignore para evitar de enviar arquivos pesados que são indesejaveis além de serem facilmente adquiridos depois.

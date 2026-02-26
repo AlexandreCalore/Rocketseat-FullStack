@@ -1,0 +1,1 @@
+Adicionamos regras de validação dos campos inicialmente verificados pelo ZOD, mas sendo mais especifico dessa vez, delimitano tamanho do caractere, se pode ser nulo ou nao, mensagem de retorno etc.
