@@ -1,0 +1,1 @@
+Criando tratamento de requisição para barrar as mesmas que sejam inválidas, e evitar de salvar informações erradas.

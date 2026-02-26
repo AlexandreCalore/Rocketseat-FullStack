@@ -1,0 +1,1 @@
+Validamos as condições, especificando as mensagens d eerrps 
